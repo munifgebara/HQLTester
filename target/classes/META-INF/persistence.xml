@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="HQLTester" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>br.com.gumga.security.domain.model.Coisa</class>
+    <class>br.com.gumga.security.domain.model.instance.Especification</class>
+    <class>br.com.gumga.security.domain.model.instance.IPEspecification</class>
+    <class>br.com.gumga.security.domain.model.instance.Instance</class>
+    <class>br.com.gumga.security.domain.model.instance.InstanceValue</class>
+    <class>br.com.gumga.security.domain.model.instance.OperationEspecification</class>
+    <class>br.com.gumga.security.domain.model.instance.Role</class>
+    <class>br.com.gumga.security.domain.model.instance.TimeEspecification</class>
+    <class>br.com.gumga.security.domain.model.institutional.ChangePasswordTicket</class>
+    <class>br.com.gumga.security.domain.model.institutional.GumgaToken</class>
+    <class>br.com.gumga.security.domain.model.institutional.Organization</class>
+    <class>br.com.gumga.security.domain.model.institutional.User</class>
+    <class>br.com.gumga.security.domain.model.institutional.UserGroup</class>
+    <class>br.com.gumga.security.domain.model.institutional.UserImage</class>
+    <class>br.com.gumga.security.domain.model.softwarehouse.Billing</class>
+    <class>br.com.gumga.security.domain.model.softwarehouse.Operation</class>
+    <class>br.com.gumga.security.domain.model.softwarehouse.OperationGroup</class>
+    <class>br.com.gumga.security.domain.model.softwarehouse.Software</class>
+    <class>br.com.gumga.security.domain.model.softwarehouse.SoftwareValue</class>
+    <class>io.gumga.domain.GumgaLog</class>
+    <class>io.gumga.domain.GumgaMessage</class>
+    <class>io.gumga.domain.GumgaRevisionEntity</class>
+    <class>io.gumga.domain.GumgaUserData</class>
+    <class>io.gumga.domain.customfields.GumgaCustomField</class>
+    <class>io.gumga.domain.customfields.GumgaCustomFieldValue</class>
+    <class>io.gumga.domain.tag.GumgaTag</class>
+    <class>io.gumga.domain.tag.GumgaTagDefinition</class>
+    <class>io.gumga.domain.tag.GumgaTagValue</class>
+    <class>io.gumga.domain.tag.GumgaTagValueDefinition</class>
+  </persistence-unit>
+</persistence>
